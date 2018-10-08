@@ -31,7 +31,6 @@ public class GeoObjectAdapter extends RecyclerView.Adapter<GeoObjectViewHolder> 
         // The holder argument is used to reference the views inside the viewHolder
         // Populate the views with the data from the list
         holder.geoImage.setImageResource(geoObject.getGeoImageName());
-        holder.geoName.setText(geoObject.getGeoName());
     }
 
     @Override
