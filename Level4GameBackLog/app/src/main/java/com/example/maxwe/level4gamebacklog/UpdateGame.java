@@ -60,6 +60,8 @@ public class UpdateGame extends AppCompatActivity {
 
                     db.gameDao().updateGames(newGame);
 
+                    MainActivity.isUpdating = false;
+
                     Intent intent = new Intent(UpdateGame.this, MainActivity.class);
                     startActivity(intent);
                 }else {
