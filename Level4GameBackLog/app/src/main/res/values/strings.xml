@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Level4GameBackLog</string>
+    <string-array name="status">
+        <item>Want to play</item>
+        <item>Playing</item>
+        <item>Stalled</item>
+        <item>Dropped</item>
+    </string-array>
+</resources>
